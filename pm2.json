@@ -1,12 +1,12 @@
 {
   "apps": [
     {
-      "name": "demo-api",
+      "name": "ecs-api",
       "script": "./api/app.js",
       "instances": 0
     },
     {
-      "name": "demo-consumer",
+      "name": "ecs-consumer",
       "script": "./consumer/app.js",
       "instances": 0
     }

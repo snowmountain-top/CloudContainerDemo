@@ -1,3 +1,3 @@
-# CloudContainerDemo
+# ECommerceService
 
-CloudContainerDemo - 云托管容器示例
+ECommerceService - 电商服务 
