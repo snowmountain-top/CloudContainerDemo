@@ -12,7 +12,6 @@ RUN pnpm install pm2
 FROM node:18-bullseye-slim AS build
 COPY --from=install-dependencies /webapp/ecs /webapp/ecs
 COPY ./src /webapp/ecs/src
-COPY ./resources /webapp/ecs/resources
 COPY ./tsconfig.json ./pm2.json /webapp/ecs/
 WORKDIR /webapp/ecs
 RUN npm run build
