@@ -11,7 +11,7 @@ class CustomerRouter {
     )
 
     for (const funcName of funcNameList) {
-      this.expressRouter.post(...transfer(processController[funcName]))
+      this.expressRouter.post(...transfer(processController[funcName], processController))
     }
   }
 
