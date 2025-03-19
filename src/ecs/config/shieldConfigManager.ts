@@ -50,7 +50,7 @@ export type ShieldConfig = {
   CLS: {
     TOPIC_ID: string
     ENDPOINT: string
-    SOURCE_IP: string
+    SOURCE: string
     RETRY_TIMES: number
   }
   API_PORT: number

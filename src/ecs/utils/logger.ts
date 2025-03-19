@@ -25,9 +25,10 @@ class Logger {
         endpoint: shieldConfigManager.config.CLS.ENDPOINT,
         secretId: shieldConfigManager.config.TENCENT.SECRET_ID,
         secretKey: shieldConfigManager.config.TENCENT.SECRET_KEY,
-        sourceIp: shieldConfigManager.config.CLS.SOURCE_IP,
+        sourceIp: shieldConfigManager.config.CLS.SOURCE,
         retry_times: shieldConfigManager.config.CLS.RETRY_TIMES,
       })
+      this.topicId = shieldConfigManager.config.CLS.TOPIC_ID
     }
   }
 
